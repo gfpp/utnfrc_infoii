@@ -1,4 +1,4 @@
-# La Shell de Linux
+# Ejercicios de operadores a nivel de bits
 
 Gonzalo F. Perez Paina
 

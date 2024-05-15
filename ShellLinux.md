@@ -1,4 +1,4 @@
-# La Shell de Linux
+# Ejercicios de la Shell de Linux
 
 Gonzalo F. Perez Paina
 

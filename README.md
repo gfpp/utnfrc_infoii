@@ -9,5 +9,6 @@ Este repositorio contiene ejemplos y ejercicios sobre los temas vistos en la asi
 * [Programación de Arduino con sketch](ejercicios/Arduino.md).
 * Unidad 1: [Ejercicios de la Shell de GNU/Linux](ejercicios/ShellLinux.md).
 * Unidad 2: [Ejercicios operadores a nivel de bits](ejercicios/OpBits.md).
+* Unidad 3: [Ejercicios de E/S del $\mu$C ATmega328](ejercicios/ATmega328ESdig.md).
 * Unidad 4: [Comunicación entre PC y placa Arduino](ejercicios/ComPCArduino.md).
 * Unidad 5: [Ejercicios de programación en lenguaje C++](ejercicios/Cpp.md).

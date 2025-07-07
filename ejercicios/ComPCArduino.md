@@ -5,7 +5,7 @@ Se muestran algunos ejemplos de código fuente de programación de puerto serie 
 Los ejemplos y ejercicios que hacen uso de la placa Arduino UNO utilizan circuitos basados en la placa [`ponchitoCIII`](https://github.com/ciiiutnfrc/ponchitoCIII).
 
 ## Contenido
-* [Conexión TTY entre la PC y la placa Arduino UNO](ComPCArduinoCon.md)
-* [Ejemplo de comunicación PC->Arduino](ComPCtoArduino.md)
-* [Ejemplo de comunicación Arduino->PC](ComArduinotoPC.md)
-* Ejercicios.
+* [Conexión TTY entre la PC y la placa Arduino UNO](ComPCArduinoCon.md).
+* [Ejemplo de comunicación PC->Arduino](ComPCtoArduino.md).
+* [Ejemplo de comunicación Arduino->PC](ComArduinotoPC.md).
+* [Ejercicios](ComPCArduinoEjr.md).

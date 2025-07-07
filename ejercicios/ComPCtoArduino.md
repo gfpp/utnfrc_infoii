@@ -24,7 +24,7 @@ El programa recibe mediante argumentos de la función `main()` el puerto serie y
 ```
 $> gcc -Wall write_char.c termset.c -o write_char
 ```
-el cual utiliza también el código fuente del módulo de configuración de puerto serie [`termset`](../src/pc/termset).
+el cual utiliza también el código fuente del módulo de configuración de puerto serie [`termset`](../src/pc/c/termset).
 
 Luego, se debe ejecutar con:
 ```

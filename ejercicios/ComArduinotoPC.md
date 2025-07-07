@@ -7,7 +7,7 @@ En los siguientes ejemplos se utiliza el circuito mostrado a continuación, en e
   <br>Conexión de potenciómetro a entrada analógica de la placa Arduino UNO.
 </div>
 
-<br>El ADC del $\mu$C ATmega328 es de 10 bits, por lo que el rango de valores del conversor es de 0 a 1023 ($2^{10}=1024$). 
+<br>El ADC del $`\mu`$C ATmega328 es de 10 bits, por lo que el rango de valores del conversor es de 0 a 1023 ($2^{10}=1024$). 
 
 Los siguientes ejemplos están basados en el sketch `AnalogReadSerial` incluido con el IDE Arduino (ver [documentación de Arduino](https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/)).
 
@@ -30,7 +30,7 @@ $> ./read_byte /dev/ttyUSB0 9600
 
 ## Ejemplo 2: Lectura de cadena de longitud variable
 ### Programa para el Arduino
-En este ejemplo se utiliza el sketch original incluido con el IDE Arduino (`AnalogReadSerial`). Este sketch envía el valor del ADC como cadena (arreglo de caracteres más fin de cadena), la cual representa un valor entero en el rango de valores de 0 a 1023, dado que el ADC del $\mu$C es de 10 bits.
+En este ejemplo se utiliza el sketch original incluido con el IDE Arduino (`AnalogReadSerial`). Este sketch envía el valor del ADC como cadena (arreglo de caracteres más fin de cadena), la cual representa un valor entero en el rango de valores de 0 a 1023, dado que el ADC del $`\mu`$C es de 10 bits.
 
 Un aspecto importante es que la cadena enviada es de longitud variable, dependiendo del número entero que representa, por ejemplo: `"0"`, `"518"`, `"1023"`, etc.
 

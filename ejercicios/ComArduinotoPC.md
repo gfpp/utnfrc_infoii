@@ -13,10 +13,10 @@ Los siguientes ejemplos están basados en el sketch `AnalogReadSerial` incluido 
 
 ## Ejemplo 1: Lectura de 1 único byte
 ### Programa para el Arduino
-El sketch a utilizar es [`AnalogReadSerialByte.ino`](../src/com_pc_arduino/arduino/sketch/AnalogReadSerialByte/AnalogReadSerialByte.ino). Este programa toma el valor leído desde el ADC como variable entera en el rango 0-1023 lo escala al rango 0.255 y almacena en una variable de 1 único byte; el cual se envía por el puerto serie a la PC.
+El sketch a utilizar es [`AnalogReadSerialByte.ino`](../src/arduino/sketch/AnalogReadSerialByte/AnalogReadSerialByte.ino). Este programa toma el valor leído desde el ADC como variable entera en el rango 0-1023 lo escala al rango 0.255 y almacena en una variable de 1 único byte; el cual se envía por el puerto serie a la PC.
 
 ### Programa para la PC
-El archivo [`read_byte.c`](../src/com_pc_arduino/pc/c/read_byte.c) se corresponde al código fuente de un programa que recibe un byte por puerto serie y muestra su valor en la salida estándar como número entero (con valor entre 0 y 255).
+El archivo [`read_byte.c`](../src/pc/c/read_byte.c) se corresponde al código fuente de un programa que recibe un byte por puerto serie y muestra su valor en la salida estándar como número entero (con valor entre 0 y 255).
 
 El programa recibe mediante argumentos de la función `main()` el puerto serie y la velocidad de comunicación a utilizar. El mismo se puede compilar con:
 ```
@@ -35,7 +35,7 @@ En este ejemplo se utiliza el sketch original incluido con el IDE Arduino (`Anal
 Un aspecto importante es que la cadena enviada es de longitud variable, dependiendo del número entero que representa, por ejemplo: `"0"`, `"518"`, `"1023"`, etc.
 
 ### Programa para la PC
-El archivo [`read_line.c`](../src/com_pc_arduino/pc/c/read_line.c) muestra un código fuente de ejemplo de una aplicación de PC para leer el puerto serie mediante funciones de alto nivel de manejo de archivos. Se utiliza la función `getline()` debido a que la cadena es de longitud variable. Cabe aclarar que si la cadena fuera de longitud fija se podría utilizar la función de lectura de bajo nivel `read()` indicando la cantidad de bytes a leer.
+El archivo [`read_line.c`](../src/pc/c/read_line.c) muestra un código fuente de ejemplo de una aplicación de PC para leer el puerto serie mediante funciones de alto nivel de manejo de archivos. Se utiliza la función `getline()` debido a que la cadena es de longitud variable. Cabe aclarar que si la cadena fuera de longitud fija se podría utilizar la función de lectura de bajo nivel `read()` indicando la cantidad de bytes a leer.
 
 El programa recibe mediante argumentos de la función `main()` el puerto serie y la velocidad de comunicación a utilizar. El mismo se puede compilar con:
 ```

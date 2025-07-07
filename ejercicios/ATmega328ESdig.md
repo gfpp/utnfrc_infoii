@@ -1,4 +1,4 @@
-# Ejercicios de E/S digitales del $\mu$C ATmega328
+# Ejercicios de E/S digitales del $`\mu`$C ATmega328
 
 Gonzalo F. Perez Paina
 

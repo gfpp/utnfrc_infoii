@@ -4,14 +4,12 @@
 #include <termios.h>
 #include <fcntl.h>
 
+
 /* termset function
  * Parameters:
  *  fd: file descriptor -device- (ex: /dev/ttyUSB0)
  *  baudrate: communication speed (ex: 9600, 115200)
- *  ttyold: current termios structure
- *  ttynew: new termios structure
  */
 int termset(int fd, int baudrate);
 
 #endif
-
